@@ -7,7 +7,7 @@ function App() {
   const handleCheckout = async () => {
     const stripe = await stripePromise;
 
-    const response = await fetch("https://web-development-project-6-payment.onrender.com/create-checkout-session", {
+    const response = await fetch("https://payment-integration-backend-gj7d.onrender.com/create-checkout-session", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
